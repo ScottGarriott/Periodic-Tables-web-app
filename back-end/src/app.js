@@ -11,13 +11,8 @@ const reservationsRouter = require("./reservations/reservations.router");
 const tablesRouter = require("./tables/tables.router")
 
 const app = express();
-var corsOptions = {
-    origin: 'https://git.heroku.com/periodic-tables-7447-front-end.git',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-  }
 
-
-app.use(cors(corsOptions));
+app.use(cors("*"));
 app.use(express.json());
 
 app.use("/reservations", reservationsRouter);
