@@ -1,0 +1,18 @@
+.card-name {
+    background-color: #023047;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px 3px;
+    padding: 4px 4px 0px 4px;
+    text-align: center;
+}
+
+.card{
+    background-color: #219EBC;
+    color: white;
+}
+
+li.reservation-list{
+    background-color: #219EBC;
+}
