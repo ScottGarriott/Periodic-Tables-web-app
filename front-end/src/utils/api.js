@@ -7,7 +7,7 @@ import formatReservationTime from "./format-reservation-date";
 
 const API_BASE_URL =
   //process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
-  process.env.NODE_ENV === "production" ? "https://git.heroku.com/periodic-tables-4774-backend.git" : "http://localhost:5000"
+  process.env.NODE_ENV === "production" ? "https://git.heroku.com/periodic-tables-7447-back-end.git" : "http://localhost:5000"
 
 /**
  * Defines the default headers for these functions to work with `json-server`
