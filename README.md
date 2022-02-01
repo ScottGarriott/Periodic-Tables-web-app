@@ -1,6 +1,9 @@
 # Periodic Tables
 A web app designed to help restaurants track and seat reservations using Node.js, JS, React, HTML 5 and CSS 3.
 
+# Deployed App
+https://periodic-tables-7447-front-end.herokuapp.com
+
 # Technology used
   ### Frontend
     - React.js
