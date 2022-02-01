@@ -12,7 +12,7 @@ const tablesRouter = require("./tables/tables.router")
 
 const app = express();
 
-app.use(cors({origin: "https://periodic-tables-7447-front-end.herokuapp.com/"}));
+app.use(cors({origin: "https://periodic-tables-7447-front-end.herokuapp.com"}));
 app.use(express.json());
 
 app.use("/reservations", reservationsRouter);
