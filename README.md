@@ -12,7 +12,7 @@ https://periodic-tables-7447-front-end.herokuapp.com
     
   ### Backend
     - Node.js
-    - Posgres
+    - Postgres
     - Express
      
 # Summary
